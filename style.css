@@ -25,3 +25,21 @@ body {
   display: block;
 }
 
+/* couleur des liens de la navigation*/
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+/* enlever le soulignement des liens*/
+ul {
+  list-style: none;
+  position: relative;
+  text-align: left;
+}
+
+/* barre de navigation horizontale*/
+
+li {
+  float: left;
+}
