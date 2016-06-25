@@ -133,3 +133,15 @@ ul.primary li:hover ul {
   display: block;
   background: #fff;
 }
+
+
+/*background blanc des liens pendant le déroulement*/
+ul.primary li:hover a {
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+ul.primary li:hover > a{
+  color: #000;
+} 
