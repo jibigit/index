@@ -145,3 +145,26 @@ ul.primary li:hover a {
 ul.primary li:hover > a{
   color: #000;
 } 
+
+/*content*/
+
+.contenu{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #009688;
+  text-decoration: none;
+}
+
+/* souligner les liens au passage souris */
+a:hover {
+  text-decoration: underline; 
+}
