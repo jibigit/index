@@ -94,7 +94,7 @@ ul.primary li a:hover {
 }
 
 
-/*cacher les Sous liens*/
+/*cacher les listes a puces desSous liens*/
 
 ul.sub {
   position: absolute;
@@ -104,8 +104,32 @@ ul.sub {
   display:none;
 }
 
+/* cassage de float*/ 
+
 ul.sub li {
   float: none;
   margin: 0;
 }
 
+
+ul.sub li a {
+  border-bottom: 1px dotted #ccc;
+  border-right: none;
+  color: #100;
+  padding: 15px 30px;
+}
+
+ul.sub li:last-child a {
+  border-bottom: none;
+}
+
+ul.sub li a:hover {
+  color: #000;
+  background: #eeeeee;
+}
+
+/* sub display*/
+ul.primary li:hover ul {
+  display: block;
+  background: #fff;
+}
