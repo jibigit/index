@@ -94,3 +94,18 @@ ul.primary li a:hover {
 }
 
 
+/*cacher les Sous liens*/
+
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 35%;
+  display:none;
+}
+
+ul.sub li {
+  float: none;
+  margin: 0;
+}
+
