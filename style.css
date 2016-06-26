@@ -223,7 +223,7 @@ h1 a, h2 a, {
     display: block;  
     position: static;
     box-shadow: none;
-    width: 100%;
+    width: 70%;  /* Here , ul is responsive */
   }
   
   ul.sub li a {
